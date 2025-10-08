@@ -4,11 +4,11 @@
     <head>
         <title>DevJobs - Resultados de Búsqueda</title>
         <meta name="description" content="Encuentra las mejores ofertas de trabajo para desarrolladores en DevJobs.">
-        <!-- <link rel="stylesheet" href="./styles.css"> -->
+        <link rel="stylesheet" href="./results.css">
     </head>
 
     <body>
-        <header>
+        <header role="navigation">
             <div>
                 <h1>DevJobs</h1>
 
@@ -38,7 +38,7 @@
 
                 <div>
                     <form role="search">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-search">
@@ -50,7 +50,7 @@
                         <input type="search" placeholder="Buscar trabajos, empresas o habilidades" style="border: none;">
                     </form>
                     
-                    <ul>
+                    <ul role="option">
                         <details>
                             <summary>Tecnología</summary>
                         </details>
@@ -67,67 +67,68 @@
                             <summary>Nivel de experiencia</summary>
                         </details>
                     </ul>
-                </>
+                </div>
             </section>
 
             <section>
-                <header>
-                    <h3>Resultados de búsqueda</h3>
-                </header>
+                <h3>Resultados de búsqueda</h3>
 
-                <article>
-                    <div>
-                        <h4>Ingeniero de Software</h4>
-                        <h5>Tech Solutions Inc. | Remoto</h5>
-                        <p>Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React
-                            y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.
-                        </p>
-                    </div>
+                <div>
+                    <article>
+                        <div>
+                            <h4>Ingeniero de Software</h4>
+                            <h5>Tech Solutions Inc. | Remoto</h5>
+                            <p>Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React
+                                y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.
+                            </p>
+                        </div>
 
-                    <button>Aplicar</button>
-                </article>
+                        <button>Aplicar</button>
+                    </article>
 
-                <article>
-                    <div>
-                        <h4>Analista de Datos</h4>
-                        <h5>Data Driven Co. | Ciudad de México</h5>
-                        <p>Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas
-                            de visualización. Se requiere conocimiento en SQL, Python y R.
+                    <article>
+                        <div>
+                            <h4>Analista de Datos</h4>
+                            <h5>Data Driven Co. | Ciudad de México</h5>
+                            <p>Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas
+                                de visualización. Se requiere conocimiento en SQL, Python y R.
 
-                        </p>
-                    </div>
+                            </p>
+                        </div>
 
-                    <button>Aplicar</button>
-                </article>
+                        <button>Aplicar</button>
+                    </article>
 
-                <article>
-                    <div>
-                        <h4>Desarrollador de Aplicaciones Móviles</h4>
-                        <h5>Mobile Apps Ltd. | Guadalajara</h5>
-                        <p>Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener
-                            conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.
-                        </p>
-                    </div>
+                    <article>
+                        <div>
+                            <h4>Desarrollador de Aplicaciones Móviles</h4>
+                            <h5>Mobile Apps Ltd. | Guadalajara</h5>
+                            <p>Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener
+                                conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.
+                            </p>
+                        </div>
 
-                    <button>Aplicar</button>
-                </article>
+                        <button>Aplicar</button>
+                    </article>
 
-                <article>
-                    <div>
-                        <h4>Ingeniero en DevOps</h4>
-                        <h5>Cloud Services SA | Remoto</h5>
-                        <p>Estamos buscando un ingeniero en DevOps con experiencia en la gestión de infraestructuras en la nube, automatización
-                            de procesos y herramientas de integración continua. Se requiere conocimientos en AWS, Azure o GCP.
-                        </p>
-                    </div>
+                    <article>
+                        <div>
+                            <h4>Ingeniero en DevOps</h4>
+                            <h5>Cloud Services SA | Remoto</h5>
+                            <p>Estamos buscando un ingeniero en DevOps con experiencia en la gestión de infraestructuras en la nube, automatización
+                                de procesos y herramientas de integración continua. Se requiere conocimientos en AWS, Azure o GCP.
+                            </p>
+                        </div>
 
-                    <button>Aplicar</button>
-                </article>
+                        <button>Aplicar</button>
+                    </article>     
+                </div>
+
             </section>
         </main>
 
         <footer>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"
                 class="icon icon-tabler icons-tabler-outline icon-tabler-math-lower">
@@ -135,7 +136,7 @@
                 <path d="M19 18l-14 -6l14 -6" />
             </svg>
 
-            <ul>
+            <ul role="navigation">
                 <li>1</li>
                 <li>2</li>
                 <li>3</li>
@@ -143,7 +144,7 @@
                 <li>5</li>
             </ul>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"
                 class="icon icon-tabler icons-tabler-outline icon-tabler-math-greater">
