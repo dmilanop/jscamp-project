@@ -46,6 +46,16 @@ h1 {
     margin-bottom: 1rem;
     line-height: 1.2;
     text-wrap: balance;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    svg {
+        color: var(--primary-light);
+        width: 30px;
+        height: 30px;
+    }
 }
 
 h1 + p {
