@@ -442,6 +442,7 @@ article {
 
     &.is-applied {
         background: #4caf50;
+        border: none;
         pointer-events: none;
     }
 }
