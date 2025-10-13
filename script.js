@@ -33,7 +33,7 @@
 
 const jobListingsSection = document.querySelector('.job-listings');
 
-jobListingsSection.addEventListener('click', function(event) {
+jobListingsSection?.addEventListener('click', function(event) {
     const element = event.target;
 
     if (element.classList.contains('button-apply-job')) {
