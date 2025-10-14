@@ -42,3 +42,10 @@ jobListingsSection?.addEventListener('click', function(event) {
         element.disabled = true;
     }
 })
+
+// Obtener la tecnología seleccionada
+const selectedTech = document.querySelector('#technology');
+
+selectedTech?.addEventListener('change', function(event) {
+    console.log(event.target.value);
+});
