@@ -45,16 +45,14 @@ jobListingsSection?.addEventListener('click', function(event) {
 
 // Obtener la tecnología seleccionada
 const filter = document.querySelector('#filter-location');
-const message = document.querySelector('#message');
+const message = document.querySelector('#filter-selected-value');
 
-filter?.addEventListener('change', () => {
+filter.addEventListener('change', () => {
     const selectedValue = filter.value;
 
     if (selectedValue) {
-        message.textContent = `Has seleccionado la ubicación: ${selectedValue}`;
+        message.textContent = `Has seleccionado: ${selectedValue}`;
     } else {
-        message.textContent = 'No has seleccionado ninguna ubicación';
+        message.textContent = '';
     }
-
-    
 });
