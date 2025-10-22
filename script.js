@@ -41,9 +41,39 @@ jobListingsSection?.addEventListener('click', function(event) {
         element.classList.add('is-applied');
         element.disabled = true;
     }
-})
+});
 
-// Obtener la tecnología seleccionada
+//* OTROS EVENTOS: input, blur, submit, preventDefault
+
+// Obtener el valor del input de búsqueda
+// const searchInput = document.querySelector("#empleos-search-input");
+
+// searchInput.addEventListener('input', () => {
+//     console.log(searchInput.value);
+// });
+
+// Evento blur: se activa cuando el elemento pierde el foco
+// searchInput.addEventListener('blur', () => {
+//     console.log("Se pierde el foco cuando ya no estás en el elemento");
+// });
+
+// Evento submit: se activa cuando se envía un formulario
+// const searchForm = document.querySelector('#empleos-search-form');
+
+// searchForm.addEventListener('submit', (event) => {
+//     event.preventDefault(); // Evita que se recargue la página
+//     console.log("submit");
+// });
+
+// Evento keydown: se activa cuando se presiona una tecla
+// document.addEventListener('keydown', (event) => {
+//     console.log(`tecla presionada: ${event.key}`);
+//     console.log(`esta presionada la tecla shift? ${event.shiftKey}`);
+//     console.log(`esta presionada la tecla ctrl? ${event.ctrlKey}`);
+//     console.log(`esta presionada la tecla alt? ${event.altKey}`);
+// });
+
+//* Obtener la ubicación seleccionada
 const filter = document.querySelector('#filter-location');
 const message = document.querySelector('#filter-selected-value');
 
